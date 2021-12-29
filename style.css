@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.container {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.container img {
+    border-radius: 20px 20px 0 0;
+}
+
+.inner-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    padding: 0.7em 3.2em 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+color: hsl(228, 45%, 44%);
+}
+
+.inner-container .or-sum{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.plan .annual {
+    font-weight: bold;
+}
+
+.payment {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 420px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.inner-payment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.payment img {
+    margin-left: 20px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.change {
+    margin-left: 100px;
+    color: purple;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: purple;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 420px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.paragraph {
+    width: 460px;
+    color: gray;
+    font-size: 20px;
+    
+}
+
+.cancel {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.price {
+    color: gray;
+}
